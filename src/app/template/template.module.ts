@@ -13,8 +13,6 @@ import { LayoutComponent } from './components/layout/layout.component';
     LayoutComponent
   ],
   exports: [
-    HeaderComponent,
-    FooterComponent,
     LayoutComponent
   ],
   imports: [

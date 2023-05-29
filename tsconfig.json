@@ -12,8 +12,17 @@
     "importHelpers": true,
     "target": "es2015",
     "paths": {
-      "@shared-libs": [
-        "src/app/shared/*",
+      "@libs/shared": [
+        "src/app/libs/shared/index.ts",
+      ],
+      "@libs/transactions": [
+        "src/app/libs/transactions/index.ts",
+      ],
+      "@feature/shared": [
+        "src/app/features/shared/index.ts",
+      ],
+      "@feature/ui-components": [
+        "src/app/features/ui-components/index.ts",
       ]
     },
     "module": "es2020",
